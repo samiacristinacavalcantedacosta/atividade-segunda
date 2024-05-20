@@ -1,13 +1,14 @@
 <script>
+ let idade = prompt("insira sua idade")
+    function verificarIdade(idade){
+    
+        if (idade >= 18){
+     return alert ("você pode dirigir")
+        }else if (idade < 18) {
+     return alert ("você nao pode dirigir")
+        } else {return alert ("idade invalida")}      
+    }
+    verificarIdade(idade);
 
-    function verificarIdade (){
-        let idade = parseInt(prompt("insira sua idade"))
-        if (idade < 18){
-            alert ("você nao pode dirigir")
-        }else { 
-            alert ("você pode dirigir")
-    }
-    }
-    verificarIdade();
-     
     </script>
+
